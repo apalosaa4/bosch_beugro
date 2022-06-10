@@ -33,5 +33,10 @@ namespace _1_feladat_beugro
             get { return endDate; }
             set { endDate = value; }
         }
+
+        public override string ToString()
+        {
+            return "pcb_id: " + Pcb_id + "  " + "\nquantity: " + Quantity + "  " + "\nStartDate: " + StartDate + "  " + "\nEndDate: " + EndDate;
+        }
     }
 }

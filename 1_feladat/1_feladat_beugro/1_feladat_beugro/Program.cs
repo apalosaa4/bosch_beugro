@@ -8,11 +8,23 @@ namespace _1_feladat_beugro
 {
     internal class Program
     {
-        static void Main(string[] args)
+        public static  void Main(string[] args)
         {
-            DBConnection dBConnection = new DBConnection();
+            Random rnd = new Random();
 
-            dBConnection.DbConn();
+            //DBConnection dBConnection = new DBConnection();
+            //dBConnection.DbConn();
+
+            Production p = new Production();
+            for (int i = 1; i < 11; i++)
+            {
+                p.Pcb_id = i;
+                p.Quantity = rnd.Next(1,1000);
+                p.StartDate = DateTime.Now.AddMinutes(rnd.Next(-20, -10));
+                //TODO: startDate ne legyen nagyobb az endDatenel
+                p.EndDate = DateTime.Now.AddMinutes(rnd.Next(-15, -1));
+                Console.WriteLine(p.ToString());
+            }
         }
     }
 }
