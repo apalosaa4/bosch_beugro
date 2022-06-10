@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JYdpSnXIlt11vp/hfjVHFdL3L4emUic2wslCh9PZA7AI8iL1cSEZ9/QjvAjM7apSInF4cfIZjaFFtBcMn45pMw==",
+  "dgSpecHash": "Sn7QC3eZTr6SrU76oEWi9Leq8o+0bIKyYvD86FNUgD0JuOZ1lOmCzn4XAeHuAT3UbUVXZradgxEsyVvwd4GUTg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\apalo\\Desktop\\1_feladat_beugro\\1_feladat_beugro\\1_feladat_beugro.csproj",
+  "projectFilePath": "C:\\xampp\\htdocs\\bosch_beugro\\1_feladat\\1_feladat_beugro\\1_feladat_beugro\\1_feladat_beugro.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\apalo\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512",
     "C:\\Users\\apalo\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"

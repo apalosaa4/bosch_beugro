@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\apalo\\Desktop\\1_feladat_beugro\\1_feladat_beugro\\1_feladat_beugro.csproj",
+      "projectUniqueName": "C:\\xampp\\htdocs\\bosch_beugro\\1_feladat\\1_feladat_beugro\\1_feladat_beugro\\1_feladat_beugro.csproj",
       "projectName": "1_feladat_beugro",
-      "projectPath": "C:\\Users\\apalo\\Desktop\\1_feladat_beugro\\1_feladat_beugro\\1_feladat_beugro.csproj",
+      "projectPath": "C:\\xampp\\htdocs\\bosch_beugro\\1_feladat\\1_feladat_beugro\\1_feladat_beugro\\1_feladat_beugro.csproj",
       "packagesPath": "C:\\Users\\apalo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\apalo\\Desktop\\1_feladat_beugro\\1_feladat_beugro\\obj\\",
+      "outputPath": "C:\\xampp\\htdocs\\bosch_beugro\\1_feladat\\1_feladat_beugro\\1_feladat_beugro\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
