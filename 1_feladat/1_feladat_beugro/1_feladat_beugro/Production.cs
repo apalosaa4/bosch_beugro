@@ -28,7 +28,6 @@ namespace _1_feladat_beugro
         }
 
         private DateTime endDate;
-
         public DateTime EndDate
         {
             get { return endDate; }

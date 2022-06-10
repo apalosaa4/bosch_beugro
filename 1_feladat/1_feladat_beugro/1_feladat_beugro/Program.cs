@@ -1,4 +1,8 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
+using System.Collections.Generic;
+using System.Data.Common;
+using System.Text;
 
 namespace _1_feladat_beugro
 {
@@ -6,7 +10,9 @@ namespace _1_feladat_beugro
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            DBConnection dBConnection = new DBConnection();
+
+            dBConnection.DbConn();
         }
     }
 }
