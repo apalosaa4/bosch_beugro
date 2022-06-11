@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Data.Common;
+using System.IO;
 using System.Text;
 
 namespace _1_feladat_beugro
@@ -25,6 +26,18 @@ namespace _1_feladat_beugro
                 p.EndDate = DateTime.Now.AddMinutes(rnd.Next(-15, -1));
                 Console.WriteLine(p.ToString());
             }
+            /*List<string> list = new List<string>();
+            list.Add(Convert.ToString(p.Pcb_id));
+            list.Add(Convert.ToString(p.Quantity));
+            list.Add(Convert.ToString(p.StartDate));
+            list.Add(Convert.ToString(p.EndDate));
+            Console.WriteLine(list);*/
+
+
+            /*TextWriter tw = new StreamWriter("puffer.txt");
+            foreach(String s in list)
+                tw.WriteLine(s);
+            tw.Close();*/
         }
     }
 }
