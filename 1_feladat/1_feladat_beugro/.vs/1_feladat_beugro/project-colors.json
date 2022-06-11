@@ -5,6 +5,11 @@
       "ProjectGuid": "734c8456-728f-4b03-af23-9422316bf0f5",
       "DisplayName": "1_feladat_beugro",
       "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
     }
   },
   "NextColorIndex": 1
