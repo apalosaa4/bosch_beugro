@@ -15,6 +15,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::resource('production','App\Http\Controllers\HomeController');
+Route::resource('about','App\Http\Controllers\AboutController');
+Route::resource('center','App\Http\Controllers\CenterController');
 
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();

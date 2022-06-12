@@ -10,6 +10,7 @@
                     <th scope="col">Quantity</th>
                     <th scope="col">Starting Date</th>
                     <th scope="col">Ending Date</th>
+                    <th scope="col">Delete</th>
                 </tr>
                 @foreach ($productions as $production)
                 <tr>
@@ -18,6 +19,12 @@
                     <th scope="col">{{ $production->quantity }}</th>
                     <th scope="col">{{ $production->startDate }}</th>
                     <th scope="col">{{ $production->endDate }}</th>
+                    <th scope="col">
+                        <a href="{{{ url('destroy')}}}"><button class="btn btn-danger" type="submit" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon">X</span>
+                        </button>
+                        </a>
+                    </th>
                 </tr>
                 @endforeach
             </thead>

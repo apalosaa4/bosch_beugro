@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controller\AboutController;
+use App\Http\Controller\CenterController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,3 +21,6 @@ Route::get('/', function () {
 });
 
 Route::get('/production', 'HomeController@production')->name('production');
+Route::get('/destroy/{id}', 'HomeController@destroy')->name('destroy');
+Route::get('/center', 'CenterController@index')->name('center');
+Route::get('/about', 'AboutController@index')->name('about');

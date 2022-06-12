@@ -28,7 +28,19 @@ class HomeController extends Controller
         $productions = Productions::all();
         //views can be returned with data.
         return view('production',['productions'=>$productions]);
-        //return ProductionResource::collection($productions);
     }
 
+    /**
+     * Remove the specified resource from storage.
+     *
+     * @param  int $id
+     * @return \Illuminate\Http\Response
+     */
+    public function destroy($id)
+    {
+        $productions=Productions::all()->where('id',$id)->first();
+        if($productions->delete()){
+            return new ProductionResource($productions);
+        }
+    }
 }
