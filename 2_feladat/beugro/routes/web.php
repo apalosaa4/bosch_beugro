@@ -18,8 +18,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Auth::routes();
 Route::get('/production', 'HomeController@production')->name('production');
-
-Auth::routes();
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

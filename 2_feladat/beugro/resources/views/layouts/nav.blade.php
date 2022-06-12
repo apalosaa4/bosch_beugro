@@ -10,6 +10,6 @@
       </div>
     </div>
     <span class="navbar-text">
-        Write your name here
+        Bognár Viktória
     </span>
 </nav>

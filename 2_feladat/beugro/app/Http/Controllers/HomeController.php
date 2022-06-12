@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use App\Models\Productions;
+use App\Http\Requests\StoreProductionsRequest;
+use App\Http\Requests\UpdateProductionsRequest;
+use App\Http\Requests\ProductionResource;
 
 class HomeController extends Controller
 {
@@ -22,7 +25,10 @@ class HomeController extends Controller
      */
     public function production()
     {
+        $productions = Productions::all();
         //views can be returned with data.
-        return view('production');
+        return view('production',['productions'=>$productions]);
+        //return ProductionResource::collection($productions);
     }
+
 }
