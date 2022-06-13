@@ -12,5 +12,17 @@ const mix = require('laravel-mix');
  */
 
 mix.js('resources/js/app.js', 'public/js')
-    .vue()
-    .sass('resources/sass/app.scss', 'public/css');
+    .sass('resources/sass/app.scss', 'public/css')
+    .sourceMaps();
+
+mix.styles([
+    'node_modules/metismenu/dist/metisMenu.min.css'
+], 'public/css/vendor.css', './');    
+
+mix.scripts([
+    'node_modules/metismenu/dist/metisMenu.min.js'
+], 'public/js/vendor.js', './');
+
+if (mix.inProduction()) {
+    mix.version();
+}

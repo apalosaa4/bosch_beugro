@@ -38,9 +38,8 @@ class HomeController extends Controller
      */
     public function destroy($id)
     {
-        $productions=Productions::all()->where('id',$id)->first();
-        if($productions->delete()){
-            return new ProductionResource($productions);
-        }
+        $productions=Productions::find($id);
+        $productions->delete();
+        return redirect('production');
     }
 }

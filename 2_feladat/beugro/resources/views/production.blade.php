@@ -20,7 +20,7 @@
                     <th scope="col">{{ $production->startDate }}</th>
                     <th scope="col">{{ $production->endDate }}</th>
                     <th scope="col">
-                        <a href="{{{ url('destroy')}}}"><button class="btn btn-danger" type="submit" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <a href={{"destroy/".$production['id']}}><button class="btn btn-danger" type="submit" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon">X</span>
                         </button>
                         </a>
